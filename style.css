@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    color: aliceblue;
+    font-family: 'Raleway', sans-serif;
+    background: rgb(0,10,20);
+    background: linear-gradient(180deg, rgba(0,10,20,1) 0%, rgba(15,58,130,1) 100%);
+    
+}
+
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.foto-principal {
+    width: 140px;
+
+    border-radius: 200%;
+    border: rgba(255, 255, 255, 0.534) solid 2px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.288);
+}
+
+.profile {
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.social img {
+    width: 32px;
+    margin: 20px 0;
+}
+
+.list-link {
+    list-style: none;
+
+}
+.list-link li {
+    margin: 10px 20px 0 0px;
+    text-decoration: none;
+    
+}
+
+.list-link li a {
+    display:block;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color:#0E397F;
+    font-weight: bold;
+
+}
+
+.list-link li a span {
+    color:rgb(110, 110, 110);
+    display: block;
+}
